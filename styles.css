@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;500&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f4f4f4; /* Slightly more elegant light background color */
+    color: #333; /* Dark, rich text color */
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #333; /* Richer dark color for headings */
+    margin-bottom: 0.5em;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+button, .button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background: linear-gradient(135deg, #2c3e50, #1c2833); /* Gradient for button */
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px; /* More rounded buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover, .button:hover {
+    background: linear-gradient(135deg, #34495e, #2c3e50); /* Slightly lighter gradient on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #e74c3c; /* Rich, luxurious accent color */
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px; /* More rounded corners */
+    padding: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Deeper shadow for a more premium feel */
+    margin-bottom: 25px;
+}
+.navbar {
+    background-color: #2c3e50;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+}
+.navbar a {
+    color: #fff;
+    margin: 0 20px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.navbar a:hover {
+    color: #e74c3c;
+}
+table {
+    border-collapse: collapse;
+    margin: 15px;
+    width: auto; /* Adjusted to auto for better spacing */
+}
+table, th, td {
+    border: 1px solid #dee2e6;
+    padding: 10px; /* More padding for better spacing */
+    text-align: center;
+}
+input, textarea {
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #eaeaea;
+    border-radius: 6px; /* Slightly more rounded corners */
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    transition: border-color 0.3s ease;
+}
+input:focus, textarea:focus {
+    border-color: #2c3e50; /* Border color on focus for elegance */
+    outline: none;
+}
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+#tablesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Adding gap for better spacing */
+}
+.delete-btn {
+    margin-top: 10px;
+    padding: 8px 15px; /* Larger padding for delete button */
+    background-color: #e74c3c; /* Red background for delete button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.delete-btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+.highlight {
+    background-color: yellow;
+}
